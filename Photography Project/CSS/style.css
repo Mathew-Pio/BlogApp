@@ -1,0 +1,132 @@
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  background-color: #eee;
+  height: auto;
+  line-height: .7rem;
+}
+
+h1{
+  font-weight: 400;
+  font-size: 2.5rem ;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.problem{
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+img{
+  display: block;
+  width: 100%;
+}
+
+main{
+  max-width: 900px;
+  margin: auto;
+  box-shadow:30px 0 40px rgba(0, 0, 0, 0.4), -30px 0 40px rgba(0, 0, 1, 0.2) ;
+}
+
+
+#landing{
+  background-color: white;
+}
+
+#landing-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 16px; 
+}
+
+
+#landing-text h2{
+  color: grey;
+  padding: 1rem;
+}
+
+
+#landing-image{
+  background-position:center; 
+  background-size:cover ;
+  background-repeat: no-repeat;
+  height: 70vh;
+  flex: 0 1 60vw;
+  margin-bottom: 2.9rem;
+}
+
+#header h2{
+  padding:1.5rem ;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  margin: auto;
+  border-left: dotted 1px white;
+  border-right: dotted 1px white;
+  
+}
+
+
+
+.btn{
+  text-decoration: none;
+  color: coral;
+  padding: .5rem;
+  border: 1px #ccc solid;
+  border-radius: 20px;
+  display: inline-block;
+  transition: background 550ms ease;
+}
+
+ a:hover{
+  color: rgb(48, 116, 93);
+}
+
+.btn:hover{
+  background-color: #ccc;
+}
+
+
+.caption{
+  padding: .5rem;
+  text-align: center;
+}
+
+
+
+footer{
+  text-align: center;
+  padding: 2rem 1rem ;
+  margin: auto;
+  color: #333;
+}
+
+footer h3{
+  font-size: 60px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
